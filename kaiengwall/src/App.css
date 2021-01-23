@@ -1,0 +1,112 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.welcomeTitle{
+  color: #fdfdfde1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1000%;
+  
+}
+
+body{
+  background: linear-gradient(-45deg,#0575E6, #021B79);
+  background-size: 10000%;
+  animation: gradient 15s ease infinite;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.NavBar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2d303283;
+  
+}
+.NavBar li{
+  float: left;
+}
+.NavBar a{
+  padding-top: 5px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.NavBar a:hover {
+  background-color: #5e7bff;
+}
+#contact{
+  float: right;
+}
+
+#top, #bottom, #left, #right {
+	background: #000000;
+	position: fixed;
+}
+#left, #right {
+  top: 0; bottom: 0;
+  width: 5px;
+}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+	left: 0; right: 0;
+  height: 5px;
+}
+#top { top: 0; }
+#bottom { bottom: 0;}
