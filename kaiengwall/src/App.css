@@ -66,7 +66,12 @@ body{
 		background-position: 0% 50%;
 	}
 }
-
+.NavBar{
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 .NavBar ul{
   list-style-type: none;
   margin: 0;
@@ -110,3 +115,19 @@ body{
 }
 #top { top: 0; }
 #bottom { bottom: 0;}
+
+.aboutMe{
+  width: 400px;
+  padding-left: 40px;
+  color: #fdfdfde1; 
+  text-align: left;
+  font-size: 150%;
+  
+}
+
+.construct{
+  padding-top: 40px;
+  text-align: center;
+  color: #fdfdfde1; 
+  font-size: 200%;
+}
