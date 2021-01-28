@@ -92,7 +92,7 @@ body{
   text-decoration: none;
 }
 .NavBar a:hover {
-  background-color: #5e7bff;
+  background-color: #5e7cff34;
 }
 #contact{
   float: right;
@@ -116,12 +116,16 @@ body{
 #top { top: 0; }
 #bottom { bottom: 0;}
 
-.aboutMe{
+.flex-item{
   width: 400px;
   padding-left: 40px;
   color: #fdfdfde1; 
   text-align: left;
   font-size: 150%;
+  
+}
+.flex-item:hover{
+ background-color: #5e7cff34;
   
 }
 
@@ -130,4 +134,8 @@ body{
   text-align: center;
   color: #fdfdfde1; 
   font-size: 200%;
+}
+
+.flex-container{
+  display: flex;
 }

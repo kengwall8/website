@@ -2,6 +2,8 @@ import './App.css';
 import {NavBar} from './NavBar';
 import {Border} from './Border'; 
 import {AboutMe} from './AboutMe';
+import {AboutWebsite} from './AboutWebsite';
+
 function App() {
   return (
     <div>
@@ -11,7 +13,10 @@ function App() {
           <h1 className = "construct">WEBSITE UNDER CONSTRUCTION</h1>
           <h1 className = "welcomeTitle">Welcome to my Website</h1>
         </div>
-      <AboutMe/>
+        <div className = "flex-container">
+          <AboutMe/>
+          <AboutWebsite/>
+        </div>
       </div>
       <Border/>
     </div>
